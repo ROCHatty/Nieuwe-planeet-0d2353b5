@@ -1,0 +1,11 @@
+USE `sterrenstelsel`;
+ALTER TABLE planeten ADD id INT NOT NULL;
+ALTER TABLE planeten ADD PRIMARY KEY (id);
+ALTER TABLE planeten MODIFY id INT NOT NULL AUTO_INCREMENT;
+INSERT INTO planeten (naam, diameter, afstand_tot_de_aarde, massa) VALUES ('Mars', 6794, 227936640, 0);
+INSERT INTO planeten (naam, diameter, afstand_tot_de_aarde, massa) VALUES ('Mars', 6794, 227936640, 0);
+INSERT INTO planeten (naam, diameter, afstand_tot_de_aarde, massa) VALUES ('Mars', 6794, 227936640, 0);
+INSERT INTO planeten (naam, diameter, afstand_tot_de_aarde, massa) VALUES ('Mars', 6794, 227936640, 0);
+INSERT INTO planeten (naam, diameter, afstand_tot_de_aarde, massa) VALUES ('Mars', 6794, 227936640, 0);
+INSERT INTO planeten (naam, diameter, afstand_tot_de_aarde, massa) VALUES ('Mars', 6794, 227936640, 0);
+INSERT INTO planeten (naam, diameter, afstand_tot_de_aarde, massa) VALUES ('Mars', 6794, 227936640, 0);
